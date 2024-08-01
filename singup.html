@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+</head>
+<body>
+    <div class="navbar show-menu">
+        <div class="header-inner-content">
+          <h1 class="logo">Tech.<span>GG</span></h1>
+          <nav>
+            <ul class="navbar-bottons">
+                <li class="navbar-bottons"><a href="index.html"><button>Inicio &#8594;</button></a></li>
+            </ul>
+        </nav> 
+    </div>
+</div>
+
+<header>
+    <div>
+      <h1 class="title-singup">Cadastre-<span>se</span></h1>
+    </div>
+    
+          </header>
+
+          <main>
+            <form class="credencial" name="signup" onsubmit="alert('Cadastro realizado com sucesso!')" method="POSTs" action="#">
+
+              <label><strong>Nome *:</strong></label> <input type="text" placeholder=" Nome" required minlength="11"> <br>
+              <label><strong>Idade *:</strong></label> <input type="number" placeholder=" Idade" required minlength="2"> <br>
+              <label><strong>CPF *:</strong></label> <input type="number" placeholder=" Numero" required required minlength="11" maxlength="11"> <br>
+              <label><strong>E-mail *:</strong></label> <input type="email" placeholder=" E-mail" required> <br>
+              <label><strong>N° Telefone :</strong></label> <input type="number" placeholder=" Telefone"> <br>
+              <label><strong>Senha *:</strong></label> <input type="password" placeholder=" Senha" required minlength="8" > <br>
+              <label><strong>Confirmar Senha *:</strong></label> <input type="password" placeholder="Confirmar Senha" required minlength="8" > <br>
+
+
+              <h1><input  class="acception" type="checkbox" name="opcional[]" value="aceito"> Aceito receber Ofertas por email. </h1><br>
+              <h1><input class="acception" type="checkbox" name="opcional[]" value="aceito" required> Aceito os termos e condiçoes do site. </h1><br>
+              <button type="submit">Enviar </button>
+      </form>
+          </main>
+            
+          
+        
+    <footer>© 2024 Tech.GG. Todos os direitos reservados.<address>Petropolis - Rio de Janeiro- RJ</address></footer>
+  
+  
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+.navbar {
+    background-color: #646464;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.logo {
+    color: #fa5d02;
+    font-size: 2.8rem;
+}
+
+.logo span {
+    color: #000;
+    margin-right: 5rem;
+}
+.cadastro{
+    margin: 1rem;
+    padding: 1rem;
+}
+.navbar-bottons a{
+    color: #fff;
+    padding: 1rem;
+    list-style: none;
+    text-align: end;
+    text-decoration: none;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon-container img {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+nav ul li{
+    color: #ffffff;
+    margin-right: 3rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+nav ul li:hover{
+    transform: translateY(-5px);
+    transition: all 0.2s;
+    font-weight: bold;
+}
+.navbar-bottons a button{
+    
+    
+    background-color: #fa5d02;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.navbar-bottons a button:hover {
+    background-color: #b84604;
+}
+nav ul{
+    list-style: none;
+}
+.nav-catalogo {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    border-radius: 14px;
+    font-size: 1.2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    background-color: #fa5d02;
+    cursor: pointer;
+}
+.nav-catalogo a{
+  padding: 1rem;
+  text-decoration: none;
+}
+.nav-catalogo li a{
+  margin: 1rem ;
+  color: #ffffff;
+}
+.nav-catalogo li a:hover{
+  border-radius: 4px;
+  background-color:#b84604 ;
+  color: #fff;
+  transform: translateY(-5px);
+  transition: all 0.2s;
+  font-weight: bold;
+}
+input[type=text].nav-search-input, input[type=search].nav-search-input {
+    position: relative;
+    color: rgba(0, 0, 0, .8980392157);
+    font-size: 16px;
+    margin-right: 1rem;
+    font-family: inherit;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+    height: 35px;
+    width: 90%;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0);
+    border-width: 1.5px;
+    background-color: #ffffff;
+    padding: 0rem;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
