@@ -17,6 +17,13 @@ body {
     background-color: #f2f2f2;
     margin: 0;
 }
+.page-footer{
+    width: 100%;
+    color: #f0f0f0;
+    padding: 0 5rem;
+    font-size: 1.2rem;
+    background-color:#4d4d4d;
+}
 
 @media (max-width: 900px) {
     .header-bottom-side-left, .header-bottom-side-right {
