@@ -93,6 +93,7 @@ nav ul{
 }
 .nav-catalogo li a{
   margin: 1rem ;
+  padding: .5rem;
   color: #ffffff;
 }
 .nav-catalogo li a:hover{

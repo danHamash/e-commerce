@@ -139,20 +139,21 @@ main {
     background-color: #128c7e;
   }
 .select-product{
-  align-items: start;
-      outline: none;
+      align-items: start;
+      outline: 1px solid #fa5d02;
       color: #fff;
       list-style: none;
       border: none;
       border-radius: 14px;
       font-size: 1.4rem;
       margin: 0;
+      padding: .2rem;
       background-color: #fa5d02;
       cursor: pointer;
 
 }
-.select-product:hover{
+.select-product:focus{
   outline: none;
-  background-color: #fff;
-  color: black;
+  background-color: #fa6f1f;
+  color: #fff;
 }
